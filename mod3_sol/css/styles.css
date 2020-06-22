@@ -2,6 +2,9 @@
 	background-color:#62d180;
 	margin:auto;
 }
+li{
+	border:1px solid black;
+}
 p{
 	font-size:20px;
 }
@@ -15,17 +18,15 @@ h2{
 	color:white;
 	font-weight:600; 
 }
-.list-group-item{
-	background-color: #62d180;
+.navbar-collapse{
+	padding-bottom:0;
 }
 .navbar-brand{
-	margin-top: 10px;
-	font-size: 45px;
+	font-size: 35px;
 	font-weight: 600;
 }
 .navbar-default{
 	background-color: #62d180;
-	height:80px;
 }
 @media (max-width: 768px) {
   .container {
